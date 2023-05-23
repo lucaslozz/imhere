@@ -53,7 +53,7 @@ export default function Home() {
           onChangeText={e => setParticipantName(e)}
           value={participantName}
         />
-        <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
+        <TouchableOpacity style={styles.button} onPress={handleParticipantAdd} disabled={!participantName}>
           <Text style={styles.buttonText}>+</Text>
         </TouchableOpacity>
       </View>
