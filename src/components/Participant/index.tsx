@@ -1,5 +1,5 @@
-import { View, Text, TouchableOpacity } from "react-native"
-import { styles } from "./styles"
+import { View, Text, TouchableOpacity } from 'react-native';
+import { styles } from './styles';
 
 interface ParticipantProps {
   name: string;
@@ -14,5 +14,5 @@ export function Participant({ name, onRemove }: ParticipantProps) {
         <Text style={styles.buttonText}>-</Text>
       </TouchableOpacity>
     </View>
-  )
+  );
 }
