@@ -6,6 +6,5 @@ module.exports = {
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
   transform: {
     '^.+/((@)?react-native)/.+\\.(js|jsx)$': 'babel-jest',
-    '^.+\\.(t|j)sx?$': '@swc/jest',
   },
 };
