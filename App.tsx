@@ -6,7 +6,7 @@ import LogRocket from '@logrocket/react-native';
 
 export default function App() {
   useEffect(() => {
-    LogRocket.init('l8ivti/test-app-jvdtj');
+    LogRocket.init('l8ivti/moving-music-01');
   }, []);
   return (
     <>
