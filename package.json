@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@logrocket/react-native": "^1.16.6",
     "expo": "~48.0.11",
     "expo-status-bar": "~1.4.4",
     "jest-expo": "^48.0.2",
